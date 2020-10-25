@@ -1,0 +1,27 @@
+.- Hundir la flota -.
+
+Juego desarrollado por:
+- Frederic Zalma
+- Marcos Díaz
+
+
+Fecha de entrega:
+15 de octubre de 2020
+
+
+Profesor encargado:
+Daniel Ortiz López
+
+
+Bootcamp de Data Science, full-time, "The Bridge"
+
+
+# ------------ #
+
+El histórico de versiones se puede encontrar en los repositorios individuales:
+
+Fred
+https://github.com/fzalma/Fredz_projects/tree/master/Hundir_La_Flota_FRED
+
+Marcos
+https://github.com/marcosdiak/bootcamp-files/tree/master/Pr%C3%A1cticas/Hundir%20la%20flota

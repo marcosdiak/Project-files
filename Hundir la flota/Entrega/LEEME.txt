@@ -1,0 +1,18 @@
+.- Hundir la flota -.
+
+Juego desarrollado por:
+- Frederic Zalma
+- Marcos Díaz
+
+
+Fecha de entrega:
+15 de octubre de 2020
+
+
+Profesor encargado:
+Daniel Ortiz López
+
+
+Bootcamp de Data Science, full-time, "The Bridge"
+
+

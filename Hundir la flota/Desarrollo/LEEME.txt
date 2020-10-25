@@ -1,0 +1,46 @@
+Para entender cómo se ha hecho el programa hay que seguir el siguiente orden de scripts:
+
+1- barcosManual
+2- unBarco
+3- barcosFuncion
+4- disparar
+5- barcosFantasma
+6- disparoFantasma
+7- play
+8- main
+
+
+v1.0
+
+# Aunque el juego es totalmente funcional faltan cosas por pulir:
+	
+	- Reconocer barcos de forma individual
+	- Incluir ‘Tocado y hundido” cuando se completa un barco
+	- Revisar por qué no reconoce el IndexError del try
+	- Leer correctamente el .txt con las instrucciones
+	- Incorporar más opciones a los menús de selección
+	- Ofrecer la posibilidad de colocar barcos de usuario aleatorio o manual
+
+v2.0
+
+# Se han añadido detalles:
+
+	- Corregidos errores tipográficos
+	- Ampliado menú de abandonar la partida que se está jugando
+	- Se limpian los tableros al abandonar la partida
+	- Desarrollo de la instrucciones en el archivo .txt
+	- Añadida la opción de mostrar las instrucciones por pantalla
+	- Se han revisado todos los scripts para que sean lo más didácticos posibles
+	- 3 niveles de dificultad de juego se han añadido
+
+
+v3.0
+
+	- Incorporado 1.2s de demora entre disparo del usuario y disparo de la máquina
+	- Arreglado error del IndexError si las coordenadas del usuario salían del tablero
+	- Arreglada la selección de nivel del juego: anteriormente el juego proseguía
+	  aun cuando el usuario elegía un nivel que no era 1, 2, 3
+	- Optimizado el código de incrementar nivel de dificultad de juego
+	- Añadida una versión adicional con clase Tablero en carpeta Marcos y Fred
+
+

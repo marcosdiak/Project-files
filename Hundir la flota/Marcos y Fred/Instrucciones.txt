@@ -1,0 +1,52 @@
+........................................
+........................................
+.-.-.-.	    HUNDIR LA FLOTA 	 .-.-.-.
+........................................
+........................................
+....... BY .............................
+........... MARCOS .... & .... FRED ....
+........................................
+........................................
+
+¿Cómo funciona el juego?
+
+Se trata de una versión de hundir la flota que consta de:
+
+1. Un tablero de 10 x 10 posiciones.
+2. Dos jugadores: el usuario y la máquina.
+3. Habrá barcos de diferente eslora:
+	4 barcos de 1 posición de eslora.
+	3 barcos de 2 posiciones de eslora.
+	2 barcos de 3 posiciones de eslora.
+	1 barco de 4 posiciones de eslora.
+  Los barcos, por defecto, serán colocados de forma aleatoria tanto para 
+  el usuario como para la máquina.
+4. Se jugará por turnos y comienza el usuario.
+5. Por cada turno habrá, al menos, un disparo a una coordenada del tablero
+   del contrincante, (x, y).
+	- Si la coordenada acierta en un barco rival se volverá a disparar.
+	- Si la coordenada no acierta en un barco rival el turno pasa al contrincante.
+	- Las condiciones aplican por igual tanto al usuario como a la máquina.
+6. La representación de los disparos en el tablero es la siguiente:
+	' ' representa coordenada donde aún no ha habido actividad.
+	'X' representa los impactos en barcos rivales. 
+	'-' representa los impactos en agua. 
+	'0' representa en el tablero del usuario sus propios barcos.
+7. Se mostrarán por pantalla dos tableros:
+	- Tablero del usuario, con sus propios barcos y los disparos de la máquina.
+	- Tablero de la máquina sin barcos y con los disparos del usuario.
+   La información de los disparos siempre seguirá el modelo indicado en el punto 6.
+8. Si se hunden todos los barcos de un jugador, el juego acaba y gana el contrincante.
+9. Habrá 3 niveles de dificultad:
+	- Nivel sencillo: un único lanzamiento random de coordenadas en tablero del usuario.
+	- Nivel moderado: cuatro lanzamientos random en tablero del usuario y,
+	  en caso de ser '0' uno de ellos, se quedará con este valor.
+	  Si consiguiera '0' no proseguiría con el siguiente lanzamiento random.
+	  Si ninguno es '0' se quedará con el último de los valores.
+	- Nivel difícil: ocho lanzamientos random en tablero del usuario y,
+	  en caso de ser '0' uno de ellos, se quedará con este valor.
+	  Si consiguiera '0' no proseguiría con el siguiente lanzamiento random.
+	  Si ninguno es '0' se quedará con el últimos de los valores.
+10. En esta modalidad de hundir la flota sí puede haber espacios entre los barcos.
+11. El usuario tendrá la posibilidad de abandonar el juego si lo considera oportuno.
+
